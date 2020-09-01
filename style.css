@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, 
+main {
+    background-color: #fff;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+main {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.container {
+    border: 2px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+.paypalForm {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+}strong
+
+label {
+    display: block;
+}
+
+input {
+    color: blueviolet;
+    width: 100%;
+}
